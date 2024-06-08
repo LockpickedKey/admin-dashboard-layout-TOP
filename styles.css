@@ -1,0 +1,27 @@
+.container div {
+  border: 1px solid red;
+  margin: 10px;
+  padding: 10px;
+}
+
+.sidebar {
+  grid-area: 1 / 1 / 6 / 1;
+}
+
+.header{
+  grid-area: 1 / 2 / 1 / 2;
+}
+
+.main-content {
+  grid-area: 2  / 2 / 6 / 2;
+}
+
+.container {
+  display: grid;
+  height: 98vh;
+  min-height: 2vm;
+  border: 1px solid red;
+  grid-template-columns: 1fr 4fr;
+  grid-template-rows: repeat(5, 1fr);
+  gap: 5px;
+}
