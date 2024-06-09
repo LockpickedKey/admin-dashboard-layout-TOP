@@ -42,3 +42,9 @@
   justify-content: start;
   gap: 1rem;
 }
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
