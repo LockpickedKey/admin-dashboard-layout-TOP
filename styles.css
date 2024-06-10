@@ -43,6 +43,12 @@
   gap: 1rem;
 }
 
+.header {
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+  grid-template-rows: 1fr 2fr;
+}
+
 ul {
   list-style-type: none;
   margin: 0;
