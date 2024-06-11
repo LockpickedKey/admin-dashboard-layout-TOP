@@ -87,3 +87,19 @@ ul {
   height: 25px;
   padding: 10px;
 }
+
+.header-items-top-right {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  gap: 40px;
+}
+
+.header-items-top-right b {
+  margin-right: 50px;
+}
+
+#bell-icon {
+  width: 25px;
+  height: 25px;
+}
