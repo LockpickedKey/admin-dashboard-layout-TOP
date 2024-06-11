@@ -18,8 +18,18 @@
   padding: 10px;
 }
 
+.container {
+  display: grid;
+  height: 98vh;
+  min-height: 2vm;
+  border: 1px solid red;
+  grid-template-columns: 1fr 4fr;
+  grid-template-rows: repeat(6, 1fr);
+  gap: 5px;
+}
+
 .sidebar {
-  grid-area: 1 / 1 / 6 / 1;
+  grid-area: 1 / 1 / 7 / 1;
 }
 
 .header{
@@ -27,17 +37,7 @@
 }
 
 .main-content {
-  grid-area: 2 / 2 / 6 / 2;
-}
-
-.container {
-  display: grid;
-  height: 98vh;
-  min-height: 2vm;
-  border: 1px solid red;
-  grid-template-columns: 1fr 4fr;
-  grid-template-rows: repeat(5, 1fr);
-  gap: 5px;
+  grid-area: 2 / 2 / 7 / 2;
 }
 
 .logo-container {
@@ -51,7 +51,7 @@
 .header {
   display: grid;
   grid-template-columns: 3fr 2fr;
-  grid-template-rows: 1fr 2fr;
+  grid-template-rows: 1fr 1fr;
 }
 
 .main-content {
