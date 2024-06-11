@@ -24,12 +24,12 @@
   min-height: 2vm;
   border: 1px solid red;
   grid-template-columns: 1fr 4fr;
-  grid-template-rows: repeat(6, 1fr);
+  grid-template-rows: repeat(5, 1fr);
   gap: 5px;
 }
 
 .sidebar {
-  grid-area: 1 / 1 / 7 / 1;
+  grid-area: 1 / 1 / 6 / 1;
 }
 
 .header{
@@ -37,7 +37,7 @@
 }
 
 .main-content {
-  grid-area: 2 / 2 / 7 / 2;
+  grid-area: 2 / 2 / 6 / 2;
 }
 
 .logo-container {
@@ -102,4 +102,36 @@ ul {
 #bell-icon {
   width: 25px;
   height: 25px;
+}
+
+
+.header-items-bottom-left {
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+}
+
+.header-items-bottom-right {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.header-items-bottom-right button {
+  background-color: rgb(83, 169, 240);
+  border-radius: 20px;
+  padding: 5px 10px;
+  font-size: 16px;
+  font-weight: 500;
+  color: white;
+  height: 2.5rem;
+  width: 6rem;
+  border: none;
+  cursor: pointer;
+}
+
+.header-image-container img {
+  width: 25px;
+  height: 25px;
+  margin-left: 10px;  
 }
