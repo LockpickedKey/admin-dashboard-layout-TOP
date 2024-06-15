@@ -55,10 +55,10 @@
 }
 
 .logo-container h3::before {
-  content: url(images/basketball-hoop-outline.svg);
+  content: url(images/view-dashboard.svg);
   display: inline-block;
-  width: 24px;
-  height: 24px;
+  width: 26px;
+  height: 26px;
   margin-right: 12px;
 }
 
@@ -68,8 +68,72 @@
   font-size: 20px;
 }
 
-.sidebar-content li::before {
-  content: url(images/bell-alert-outline.svg);
+#home::before {
+  content: url(images/home-account.svg);
+  display: inline-block;
+  width: 15px;
+  height: 20px;
+  margin-right: 5px;
+}
+
+#profile::before {
+  content: url(images/face-man-profile.svg);
+  display: inline-block;
+  width: 15px;
+  height: 20px;
+  margin-right: 5px;
+}
+
+#messages::before {
+  content: url(images/chat-alert-outline.svg);
+  display: inline-block;
+  width: 15px;
+  height: 20px;
+  margin-right: 5px;
+}
+
+#history::before {
+  content: url(images/history.svg);
+  display: inline-block;
+  width: 15px;
+  height: 20px;
+  margin-right: 5px;
+}
+
+#tasks::before {
+  content: url(images/file-tree.svg);
+  display: inline-block;
+  width: 15px;
+  height: 20px;
+  margin-right: 5px;
+}
+
+#communities::before {
+  content: url(images/account-group.svg);
+  display: inline-block;
+  width: 15px;
+  height: 20px;
+  margin-right: 5px;
+}
+
+#settings::before {
+  content: url(images/cog.svg);
+  display: inline-block;
+  width: 15px;
+  height: 20px;
+  margin-right: 5px;
+}
+
+#support::before {
+  content: url(images/face-agent.svg);
+  display: inline-block;
+  width: 15px;
+  height: 20px;
+  margin-right: 5px;
+}
+
+#privacy::before {
+  content: url(images/lock.svg);
   display: inline-block;
   width: 15px;
   height: 20px;
