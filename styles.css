@@ -309,6 +309,14 @@ ul {
   background-color: var(--WHITE);
 }
 
+.announcement {
+  padding: 8px;
+}
+
+.announcement h4 {
+  margin-bottom: 4px;
+}
+
 .trending-box {
   margin: 4px;
   padding: 4px;
