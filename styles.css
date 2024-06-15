@@ -242,6 +242,10 @@ ul {
 
 .main-content-announcements {
   overflow: auto;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  gap: 20px;
 }
 
 .main-content-announcement-text, .main-content-trending-text {
@@ -272,6 +276,26 @@ ul {
   background-color: var(--WHITE);
 }
 
+.project-block-text-container h5 {
+  font-size: 28px;
+  margin-bottom: 8px;
+}
+
+.project-block-text-container p {
+  font-size: 12px;
+}
+
+.project-block-icon-container {
+  display: flex;
+  justify-content: end;
+  margin-top: 32px;
+  gap: 4px;
+}
+
+.project-block-icon-container img {
+  cursor: pointer;
+}
+
 .main-content-announcements, .main-content-trending  {
   border: 1px solid black;
   border-radius: 5px; 
@@ -280,8 +304,4 @@ ul {
   margin: 15px;
   padding: 8px;
   background-color: var(--WHITE);
-}
-
-.project-block-text-container::hover {
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
