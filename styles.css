@@ -251,8 +251,8 @@ ul {
 .main-content-announcement-text, .main-content-trending-text {
   position: sticky;
   top: 0;
+  text-align: center;
   background-color: var(--WHITE);
-  margin: 10px;
 }
 
 .main-content-trending {
@@ -264,6 +264,8 @@ ul {
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  gap: 12px;
+  margin: 4px;
 }
 
 .project-block-text-container {
@@ -277,6 +279,7 @@ ul {
 }
 
 .project-block-text-container h5 {
+  margin-top: 8px;
   font-size: 28px;
   margin-bottom: 8px;
 }
@@ -288,7 +291,7 @@ ul {
 .project-block-icon-container {
   display: flex;
   justify-content: end;
-  margin-top: 32px;
+  margin-top: 18px;
   gap: 4px;
 }
 
@@ -304,4 +307,13 @@ ul {
   margin: 15px;
   padding: 8px;
   background-color: var(--WHITE);
+}
+
+.trending-box {
+  margin: 4px;
+  padding: 4px;
+}
+
+.trending-box h3 {
+  margin-bottom: 4px;
 }
