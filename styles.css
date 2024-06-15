@@ -34,7 +34,7 @@
   display: grid;
   height: 100vh;
   min-height: 2vm;
-  grid-template-columns: 1fr 4fr;
+  grid-template-columns: 1fr 5fr;
   grid-template-rows: repeat(5, 1fr);
 }
 
@@ -51,18 +51,21 @@
 }
 
 .logo-container {
-  display: flex; 
-	flex-direction: row; 
-	flex-wrap: wrap; 
-  justify-content: start;
-  gap: 16px;
-  font-size: 32px;
+  font-size: 24px;
+}
+
+.logo-container h3::before {
+  content: url(images/basketball-hoop-outline.svg);
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  margin-right: 12px;
 }
 
 .sidebar-content li {
   padding: 5px;
   margin-bottom: 6px;
-  font-size: 24px;
+  font-size: 20px;
 }
 
 .sidebar-content li::before {
