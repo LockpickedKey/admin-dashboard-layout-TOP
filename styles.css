@@ -1,3 +1,55 @@
+::root {
+  font-family: 'rubikregular', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+@font-face {
+  font-family: 'rubikregular';
+  src: url('fonts/rubik-regular-webfont.woff2') format('woff2'),
+       url('fonts/rubik-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'rubikmedium';
+  src: url('fonts/rubik-medium-webfont.woff2') format('woff2'),
+       url('fonts/rubik-medium-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'rubikbold';
+  src: url('fonts/rubik-bold-webfont.woff2') format('woff2'),
+       url('fonts/rubik-bold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'rubikblack';
+  src: url('fonts/rubik-black-webfont.woff2') format('woff2'),
+       url('fonts/rubik-black-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+h3 {
+  font-family: 'rubikbold', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h4, h5 {
+  font-family: 'rubikmedium', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+p, button, span, div, li {
+  font-family: 'rubikregular', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -211,6 +263,7 @@ ul {
 
 .header-items-bottom-right button {
   background-color: var(--PURPLE);
+  font-family: 'rubikregular', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   border-radius: 20px;
   padding: 5px 10px;
   font-size: 16px;
